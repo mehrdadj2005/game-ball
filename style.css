@@ -1,0 +1,118 @@
+p,
+span {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(99, 99, 99);
+}
+
+body {
+    margin: 0;
+    background-color: #00ff7761;
+}
+
+#btn-help {
+    width: 50px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #39acff;
+    font-weight: 600;
+}
+
+#help {
+    width: 400px;
+    background-color: white;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    border-radius: 10px;
+    display: none;
+    animation-name: mehrdad;
+    animation-duration: 1s;
+}
+
+@keyframes mehrdad {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 400px;
+    }
+}
+
+#help>div {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#boll {
+    width: 75px;
+    height: 75px;
+    background: #39acff;
+    transform: rotate(360deg);
+    animation-play-state: paused;
+    transition-duration: 1.5s;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-right: 10px;
+}
+
+.abisho {
+    margin-top: 5px;
+    margin-right: 5px;
+    padding: 8px;
+    vertical-align: middle;
+    color: white;
+    background-color: #39acff;
+    border: none;
+    border-radius: 5px;
+}
+
+#jon {
+    margin-top: 5px;
+    padding: 4px 10px;
+    width: 30px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgb(255, 38, 38);
+    color: white;
+}
+
+#reset {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 221, 68);
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 80px;
+    color: red;
+    display: none;
+    animation-delay: 5s;
+}
+
+#minMax {
+    border: none;
+    outline: none;
+    width: 30px;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    padding: 2px 0;
+    padding-right: 5px;
+    vertical-align: middle;
+    background: -webkit-linear-gradient(0deg, #39acff 0%, red 100%);
+    font-size: 20px;
+    color: white;
+}

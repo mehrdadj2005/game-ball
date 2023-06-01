@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <button id="btn-help" onclick="helpp()">H E L P</button>
+    <div id="help">
+        <div class="container">
+            <span onclick="exit()">❌</span>
+            <p>درود خدمت شما دوست عزیزی که سایت مارو برای سرگرمی خودتون انتخواب کردین.</p>
+            <h1>راهنمای بازی</h1>
+            <p>این یک بازی دو نفره است که با کیبورد و موس انجام میشه.</p>
+            <p>فردی که با کیبورد بازی میکنه کنترل کننده توپ است و باید از فردی که با موس بازی میکند فرار کند.</p>
+            <br>
+            <p>توپ 5 جون دارد و با هر بار ضربه خوردن باید دکمه (آبی شو) رو کلیک کنید تا توپ از حالت قرمز خارج شود.</p>
+            <p>شما میتوانید با استفاده از شماره سرعت توپ را کنترل کنید ، هرچقدر شماره بیشتر باشد سرعت توپ بیشتر می شود.</p>
+            <h1>کلید های کنترل توپ</h1>
+            <p>برای کنترل توپ بجز کلید های بالا ، پایین ، راست و چپ میشود از کلید های</p>
+            <span>(ص) برای بالا</span><br>
+            <span>(س) برای پایین</span><br>
+            <span>(ی) برای راست</span><br>
+            <span>(ش) برای چپ</span>
+            
+            <p>استفاده کنید.</p>
+        </div>
+
+    </div>
+    <button class="abisho" onclick="abiSho()">آبی شو</button>
+    <div id="jon"></div>
+    <input id="minMax" type="number" value="3" min="1" max="5">
+    <div id="boll" onclick="bezanesh()"></div>
+    <div>
+        <div id="reset">شما باختید !!!<img id="img-restart" src="images/restart.svg" alt=""> </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
