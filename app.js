@@ -68,18 +68,18 @@ function iconRestart() {
 minMax.addEventListener('click', function () {
     let x = minMax.value
     if (x == 1) {
-        boll.style.transitionDuration = '2.5s'
+        boll.style.transitionDuration = '8s'
     }
     if (x == 2) {
-        boll.style.transitionDuration = '2s'
+        boll.style.transitionDuration = '6s'
     }
     if (x == 3) {
-        boll.style.transitionDuration = '1.5s'
+        boll.style.transitionDuration = '4s'
     }
     if (x == 4) {
-        boll.style.transitionDuration = '1s'
+        boll.style.transitionDuration = '2s'
     }
     if (x == 5) {
-        boll.style.transitionDuration = '0.5s'
+        boll.style.transitionDuration = '1s'
     }
 })
